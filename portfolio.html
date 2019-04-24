@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sewon Park</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="assets/javascript/portfolio.js"></script>
+
+
+</head>
+
+<body>
+<div id="home">
+  <nav id="nav" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Sewon Park</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-me">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      
+      </li>
+    </ul>
+  </nav>
+  <!-- End Navigation -->
+
+  <div data-spy="scroll" data-target="#nav" data-offset="0">
+
+
+    <!-- Landing page section -->
+    
+    
+      <div id = "intro">
+        <h2 class="bold-fonts">Sewon Park</h2>
+          <h3> Welcome to my website. I am a full stack web developer.</h3>
+      </div>
+         
+      
+    
+
+    <!-- About me section -->
+
+    <div id="about-me">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Insert my picture-->
+          <img src="assets/images/mypic.jpg">
+        </div>
+
+        <div class="col-md-9">
+          <h2 id="intro">About Me</h2>
+          <p>I am a full stack web developer as well as product manager. My passion for solving clients' problems led me
+            to become a web developer. </p>
+          <h4 id="skill-tech">Resume</h4>
+          <h4 id="skill-tech">Technical Skills</h4>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-node-js"></i>
+          <!--<h4 id="skill-product">Product Management Skills</h4> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <h2>Portfolio</h2>
+      <img src="http://via.placeholder.com/640x360">
+      </br>
+      <img src="http://via.placeholder.com/640x360">
+      </br>
+      <img src="http://via.placeholder.com/640x360">
+
+    </div>
+
+    <div id="contact">
+      <h2>Contact</h2>
+      <div class="row">
+        <a href="mailto:sewonpark518@gmail.com">sewonpark518@gmail.com</a>
+        <i class="fab fa-linkedin"></i>
+      </br>
+        <i class="fab fa-github"></i>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    <!--sticky navbar-->
+    <script>
+      window.onscroll = function () { myFunction() };
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
