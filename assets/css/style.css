@@ -35,6 +35,10 @@ nav ul a {
   font-size:1.5rem;
 }
 
+i#menu.material-icons{
+  color:#212121;
+}
+
 .section{
   margin:3rem 0 3rem 0;
 }
