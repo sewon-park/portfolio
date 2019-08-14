@@ -11,13 +11,12 @@ body{
 
 
 nav{
-  /* background-color:whitesmoke; 
-    opacity: 0.5;  */
-  /* background-color:white; */
   
   box-shadow:1px 1px 4px grey;
-  background: rgba(255,255,255,0.5);
+  background: black;
+  opacity: 0.8;
   -webkit-box-shadow:none;
+
   
 }
 
@@ -28,15 +27,15 @@ nav{
 }
 
 a.brand-logo {
-  color:#212121;
+  color:white;
 }
 nav ul a {
-  color:#212121;
+  color:white;
   font-size:1.5rem;
 }
 
 i#menu.material-icons{
-  color:#212121;
+  color:white;
 }
 
 .section{
@@ -208,6 +207,7 @@ li {
 .logo{
   margin: 1rem;
   vertical-align: middle;
+  max-height:100px;
   
 }
 
@@ -218,4 +218,8 @@ h5{
 
 .row{
   margin-top:3rem;
+}
+
+.card{
+  margin:1rem;
 }
